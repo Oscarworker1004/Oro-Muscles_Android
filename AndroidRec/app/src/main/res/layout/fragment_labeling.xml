@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".Fragments.LabelingFragment">
+
+        <RelativeLayout
+            android:id="@+id/labelingArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/labelsCard"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/dataCard"
+                android:backgroundTint="@color/grey"
+                app:cardCornerRadius="30dp">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/dataList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:scrollbars="none"
+                    android:numColumns="3" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dataCard"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/deleteDataSet"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/grey"
+                android:visibility="gone"
+                tools:visibility="visible"
+                app:cardCornerRadius="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="3dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="@color/black">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="TIME"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+                                    <TextView
+                                        android:id="@+id/start_time_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="-"
+                                        android:layout_marginTop="5dp"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="EXERCISE"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                    <com.skydoves.powerspinner.PowerSpinnerView
+                                        android:id="@+id/exerciseSpinner"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Select Exercise"
+                                        app:spinner_dismiss_notified_select="true"
+                                        android:autofillHints="Exercise"
+                                        android:textColor="@color/white"
+                                        app:spinner_arrow_show="true"
+                                        app:fontFamily="@font/opensansmedium"
+                                        app:spinner_arrow_tint="@color/greyTextDropdown"
+                                        android:textColorHint="@color/greyTextDropdown"
+                                        android:textSize="14.5sp"
+                                        app:spinner_arrow_gravity="end"
+                                        app:spinner_arrow_padding="8dp"
+                                        app:spinner_divider_show="true"
+                                        app:spinner_divider_size="1dp"
+                                        app:spinner_item_height="46dp"
+                                        app:spinner_popup_animation="dropdown"
+                                        app:spinner_popup_background="@color/grey"
+                                        app:spinner_popup_elevation="14dp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center"
+                                android:layout_weight="1">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="REPS"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+                                    <TextView
+                                        android:id="@+id/repsText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="-"
+                                        android:layout_marginTop="5dp"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="DURATION"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+                                    <TextView
+                                        android:id="@+id/duration_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="-"
+                                        android:layout_marginTop="5dp"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="2">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="MUSCLE"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+                                    <TextView
+                                        android:id="@+id/selected_muscle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="-"
+                                        android:layout_marginTop="5dp"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1">
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="INTENSITY"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+                                    <TextView
+                                        android:id="@+id/intensity_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0"
+                                        android:layout_marginTop="5dp"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="2">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="WORK CAPACITY"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/greyTextDropdown"
+                                        android:fontFamily="@font/opensansmedium"/>
+
+                                    <TextView
+                                        android:id="@+id/capacity_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/opensansmedium"
+                                        android:text="0"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteDataSet"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="Delete data set"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                app:iconGravity="start"
+                app:iconPadding="-25dp"
+                android:layout_alignParentBottom="true"
+                app:icon="@drawable/deleteicon"
+                android:layout_marginBottom="10dp"
+                app:iconSize="25dp"
+                app:strokeColor="@color/white"
+                android:textSize="18sp"
+                app:strokeWidth="1dp"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>

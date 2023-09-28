@@ -1,0 +1,10 @@
+# ninja log v5
+0	1933	712885366	CMakeFiles/recorder.dir/recorder.cpp.o	a11508df78390abb
+1935	2095	712885366	C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/build/intermediates/cxx/Debug/686d5l6z/obj/x86_64/librecorder.so	c8cb947217ddaf36
+<<<<<<< Updated upstream
+1	3145	714077095	CMakeFiles/recorder.dir/recorder.cpp.o	a11508df78390abb
+3145	3382	714077095	C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/build/intermediates/cxx/Debug/686d5l6z/obj/x86_64/librecorder.so	c8cb947217ddaf36
+=======
+2	3715	714023533	CMakeFiles/recorder.dir/recorder.cpp.o	a11508df78390abb
+3715	3989	714023533	C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/build/intermediates/cxx/Debug/686d5l6z/obj/x86_64/librecorder.so	c8cb947217ddaf36
+>>>>>>> Stashed changes

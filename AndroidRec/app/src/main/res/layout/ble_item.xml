@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/bleicon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/baseline_bluetooth_24"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth device"
+            android:textColor="@color/white"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/opensansmedium"/>
+        <TextView
+            android:id="@+id/deviceUuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device UUID"
+            tools:text="DEVICE UUID LONG"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/opensansmedium"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/disconnect"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/baseline_bluetooth_disabled_24" />
+
+    <ImageView
+        android:id="@+id/connectedStatus"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_dot"
+        android:tint="#3DD598"
+        tools:visibility="visible"
+        app:tint="#3DD598" />
+
+
+
+</LinearLayout>

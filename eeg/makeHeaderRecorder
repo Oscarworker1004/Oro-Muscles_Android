@@ -1,0 +1,1 @@
+javac -h . ../Java/Recorder/src/main/java/com/digidactylus/recorder/JNIWrapRec.java

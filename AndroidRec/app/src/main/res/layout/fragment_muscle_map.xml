@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".Fragments.MuscleMapFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/confirmMuscleButton"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/grey"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/workoutSelectionColorOrange"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="50dp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="30dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/rightLeftArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="15dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/leftSideButton"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/opensansmedium"
+                            android:text="Left"
+                            android:textAllCaps="false"
+                            app:cornerRadius="10dp"
+                            app:strokeColor="@color/white"
+                            app:strokeWidth="1dp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/rightSideButton"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/workoutSelectionColorOrange"
+                            android:fontFamily="@font/opensansmedium"
+                            android:text="Right"
+                            android:textAllCaps="false"
+                            app:cornerRadius="10dp"
+                            app:strokeColor="@color/white"
+                            app:strokeWidth="0dp" />
+
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/bodyParts"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/rightLeftArea"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/black"
+                        android:outlineAmbientShadowColor="@color/white"
+                        android:outlineSpotShadowColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="6">
+
+                                <ImageView
+                                    android:id="@+id/upperLeg"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/upper_leg" />
+
+
+                                <ImageView
+                                    android:id="@+id/lowerLeg"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:src="@drawable/lower_leg" />
+
+                                <ImageView
+                                    android:id="@+id/upperBody"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/upper_body" />
+
+                                <ImageView
+                                    android:id="@+id/arms"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/arm" />
+
+                                <ImageView
+                                    android:id="@+id/backNeck"
+                                    android:layout_width="48dp"
+                                    android:layout_height="48dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/back" />
+
+                                <ImageView
+                                    android:id="@+id/head"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/head" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/searchField"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/bodyParts"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/searchBarGrey"
+                        app:cardCornerRadius="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            >
+
+                            <ImageView
+                                android:id="@+id/searchIcon"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/search_scope" />
+
+                            <EditText
+                                android:id="@+id/searchEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_toRightOf="@+id/searchIcon"
+                                android:background="@null"
+                                android:fontFamily="@font/opensansmedium"
+                                android:hint="Search"
+                                android:maxLines="1"
+                                android:paddingLeft="15dp"
+                                android:textColor="#919EAB"
+                                android:textColorHint="#919EAB"
+                                android:textCursorDrawable="@drawable/search_cursor_color" />
+
+
+                        </RelativeLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/gridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/searchField"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="15dp" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmMuscleButton"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Confirm Muscle"
+        android:backgroundTint="@color/confirmMuscleBlue"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:fontFamily="@font/opensansmedium"
+        app:cornerRadius="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

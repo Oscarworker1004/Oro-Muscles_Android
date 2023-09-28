@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e607ee35-1c18-48e1-bf0f-f93b2976728c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/reply/cache-v2-359d04aacc0239c50193.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-f2022864b00583008f3d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-c87eb3e4cae58f8abd57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/reply/index-2023-08-04T19-53-26-0120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.cmake/api/v1/reply/target-recorder-Debug-ab6851967437cf82637e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/recorder.dir/recorder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/android_gradle_build_command_recorder_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/android_gradle_build_stderr_recorder_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/android_gradle_build_stdout_recorder_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/arm64-v8a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/reply/cache-v2-85709fd7d552cf724d05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-ab7f4fd1d3a9e90f9631.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-c0322e9cdf6ec2a8164a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/reply/index-2023-08-04T19-53-42-0940.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.cmake/api/v1/reply/target-recorder-Debug-19a3c2a9575f887d929d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/recorder.dir/recorder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/android_gradle_build_command_recorder_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/android_gradle_build_stderr_recorder_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/android_gradle_build_stdout_recorder_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/armeabi-v7a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/reply/cache-v2-31117fd4081f546d0940.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/reply/cmakeFiles-v1-ec772c9397dca69244b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/reply/codemodel-v2-f627a00b343efb902aad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/reply/index-2023-08-04T19-53-43-0423.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.cmake/api/v1/reply/target-recorder-Debug-c30497e7533456b8485f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/3.18.1-g262b901/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/3.18.1-g262b901/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/recorder.dir/recorder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/android_gradle_build_command_recorder_x86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/android_gradle_build_stderr_recorder_x86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/android_gradle_build_stdout_recorder_x86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/reply/cache-v2-1e62238b585610a0cddb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-1ded505f89325f221e85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/reply/codemodel-v2-ddf1e9eacc66d3c9ba38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/reply/index-2023-08-04T19-53-43-0869.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.cmake/api/v1/reply/target-recorder-Debug-fcb385a9cb541c7a23ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/3.18.1-g262b901/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/3.18.1-g262b901/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/3.18.1-g262b901/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/recorder.dir/recorder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/android_gradle_build_command_recorder_x86_64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/android_gradle_build_stderr_recorder_x86_64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/android_gradle_build_stdout_recorder_x86_64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/.cxx/Debug/1b5r405b/x86_64/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidRec/app/src/main/java/com/digidactylus/recorder/Fragments/DataFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidRec/app/src/main/java/com/digidactylus/recorder/Fragments/DataFragment.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TXETVUKXbG9ngDkc89BSJBrAMZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/administrator/Workspace/Android/Oro Muscles",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e607ee35-1c18-48e1-bf0f-f93b2976728c" name="Changes" comment="" />
+      <created>1691181032260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691181032260</updated>
+    </task>
+    <servers />
+  </component>
+</project>

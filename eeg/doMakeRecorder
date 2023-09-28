@@ -1,0 +1,25 @@
+export JAVA_INC=/usr/lib/jvm/java-14-openjdk-amd64/include/
+
+g++ -std=c++11 -fPIC -shared -O3 -lstdc++ -I$JAVA_INC -I$JAVA_INC/linux -I. -I../  \
+    -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/ \
+    -I/usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/include/ \
+    -I/usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/include/linux/ \
+    ./eeg/JNItopRecorder.cc \
+    ./src/RecordCtrl.cc \
+    ./base/FileParser.cc \
+    ./base/StringUtil.cc \
+    ./base/ErrorHandling.cc \
+    ./base/Config.cc \
+    ./base/Processes.cc \
+    ./util/mutil.cc \
+    ./signal/Smooth.cc \
+    ./signal/Bin2CSV.cc \
+    ./signal/Filters.cc \
+    ./signal/USBReader.cc \
+    ./signal/VideoWrap.cc \
+    ./extern/filter-c/filter.cc \
+    -o libbtrecord.so
+
+cp libbtrecord.so Java/Recorder/.
+cp libbtrecord.so oro/client/.
+

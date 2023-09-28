@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/musta/Win10Backup/User Folder/backup/UserSlashDocuments/FFoxes/Barry/oromusclesmaindev-oromuscles-96a5024edea8/AndroidRec/app/.cxx/Debug/5m713py2/armeabi-v7a",
+  "command": "C:\\Users\\musta\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/musta/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/musta/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Drecorder_EXPORTS -I\"C:/Users/musta/Win10Backup/User Folder/backup/UserSlashDocuments/FFoxes/Barry/oromusclesmaindev-oromuscles-96a5024edea8/AndroidRec/app/src/main/cpp/../../../../..\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\recorder.dir\\recorder.cpp.o -c \"C:\\Users\\musta\\Win10Backup\\User Folder\\backup\\UserSlashDocuments\\FFoxes\\Barry\\oromusclesmaindev-oromuscles-96a5024edea8\\AndroidRec\\app\\src\\main\\cpp\\recorder.cpp\"",
+  "file": "C:\\Users\\musta\\Win10Backup\\User Folder\\backup\\UserSlashDocuments\\FFoxes\\Barry\\oromusclesmaindev-oromuscles-96a5024edea8\\AndroidRec\\app\\src\\main\\cpp\\recorder.cpp"
+}
+]

@@ -1,0 +1,168 @@
+#include "stdafx.h"
+#include <SetupAPI.h>
+#include <Hidsdi.h> 
+#include <devguid.h> 
+#include <winusb.h>
+#include <usb.h>
+#pragma comment(lib, "hid.lib")
+#pragma comment(lib, "setupapi.lib")
+#pragma comment(lib, "winusb.lib")
+#include <iUString.h> 
+
+
+iString<char> DevicePath;
+bool                    WinusbHandle_Open=false;
+bool                    DeviceHandle_Open = false;
+WINUSB_INTERFACE_HANDLE WinusbHandle;
+HANDLE                  DeviceHandle;
+UCHAR usb_out_buffer[64];
+DEFINE_GUID(GUID_DEVCLASS_WINUSB, 0x88bae032L, 0x5a81, 0x49f0, 0xbc, 0x3d, 0xa4, 0xff, 0x13, 0x82, 0x16, 0xd6);
+DEFINE_GUID(GUID_DEVCLASS_STL, 0xf177724dL, 0x74d3, 0x430e, 0x86, 0xb5, 0xf0, 0x36, 0x89, 0x10, 0xeb, 0x23);
+GUID winusb_guid;
+GUID stl_guid;
+
+bool connectusb();
+void  disconnectusb();
+
+
+
+
+int main()
+{
+    DWORD n;
+    DWORD   numEvents;
+    HANDLE rHnd;    
+
+WinusbHandle_Open = false;
+DeviceHandle_Open = false;
+winusb_guid = GUID_DEVCLASS_WINUSB;
+stl_guid = GUID_DEVCLASS_STL;
+usb_out_buffer[0] = 0;
+usb_out_buffer[1] = 1;
+usb_out_buffer[2] = 2;
+usb_out_buffer[3] = 3;
+
+ULONG bytesWritten;
+ULONG timeout;
+timeout = 100;
+rHnd = GetStdHandle(STD_INPUT_HANDLE);
+
+WinUsb_SetPipePolicy(WinusbHandle, 0x01, PIPE_TRANSFER_TIMEOUT, sizeof(ULONG), &timeout);
+
+timeout = TRUE;
+WinUsb_SetPipePolicy(WinusbHandle, 0x01, AUTO_CLEAR_STALL, sizeof(ULONG), &timeout);
+
+
+timeout = TRUE;
+WinUsb_SetPipePolicy(WinusbHandle, 0x01, RAW_IO, sizeof(ULONG), &timeout);//Bypasses queuing and error handling to boost performance for multiple read requests.
+
+
+while (true)
+{
+if ((!WinusbHandle_Open) || (!WinusbHandle_Open)) { if (!connectusb())Sleep(2000); }
+if ((!WinusbHandle_Open) || (!WinusbHandle_Open))continue;
+
+bytesWritten = 0;
+if (!WinUsb_WritePipe(WinusbHandle, 0x01, &usb_out_buffer[0], 2, &bytesWritten, NULL))
+{
+    n = GetLastError();
+disconnectusb();
+}
+Sleep(2000);
+}
+disconnectusb();
+return 0;
+}
+
+
+
+
+bool connectusb()
+{
+    BOOL                             bResult = FALSE;
+    HDEVINFO                         deviceInfo;
+    SP_DEVICE_INTERFACE_DATA         interfaceData;
+    PSP_DEVICE_INTERFACE_DETAIL_DATA detailData = NULL;
+    DWORD n;
+    SP_DEVINFO_DATA devinfo;
+    BYTE devdetailbuffer[4096];
+    bool found;
+
+    deviceInfo = SetupDiGetClassDevs(&stl_guid, NULL, NULL, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
+    if (deviceInfo == INVALID_HANDLE_VALUE) { return false; }
+
+    found = false;
+    for (n = 0;; n++)
+    {
+
+        interfaceData.cbSize = sizeof(SP_DEVICE_INTERFACE_DATA);
+
+        if (!SetupDiEnumDeviceInterfaces(deviceInfo, NULL, &stl_guid, n, &interfaceData))
+        {
+            n = GetLastError();
+            break;
+        }
+
+
+
+
+        detailData = (PSP_DEVICE_INTERFACE_DETAIL_DATA)devdetailbuffer;
+        detailData->cbSize = sizeof(SP_DEVICE_INTERFACE_DETAIL_DATA);
+        devinfo.cbSize = sizeof(devinfo);
+        if (!SetupDiGetDeviceInterfaceDetail(deviceInfo, &interfaceData, detailData, sizeof(devdetailbuffer), NULL, &devinfo)) { printf("SetupDiGetDeviceInterfaceDetail: %u\n", GetLastError()); break; }
+        if (IsEqualGUID(devinfo.ClassGuid, winusb_guid))
+        {
+            if ((-1 != iStrPos(detailData->DevicePath, "VID_0483")) || (-1 != iStrPos(detailData->DevicePath, "vid_0483")))
+            {
+                if ((-1 != iStrPos(detailData->DevicePath, "PID_576B")) || (-1 != iStrPos(detailData->DevicePath, "pid_576b")))
+                {
+
+                    DevicePath = detailData->DevicePath;
+                    found = true;
+                    break;
+                }
+            }
+        }
+    }
+
+
+
+SetupDiDestroyDeviceInfoList(deviceInfo);
+if (!found)return false;
+
+
+DeviceHandle = CreateFile(DevicePath.Buffer() ,
+    GENERIC_WRITE | GENERIC_READ,
+    FILE_SHARE_WRITE | FILE_SHARE_READ,
+    NULL,
+    OPEN_EXISTING,
+    FILE_ATTRIBUTE_NORMAL | FILE_FLAG_OVERLAPPED,
+    NULL);
+
+if (INVALID_HANDLE_VALUE == DeviceHandle) {
+    n = GetLastError();
+}
+
+if (INVALID_HANDLE_VALUE == DeviceHandle) return false;
+DeviceHandle_Open = true;
+
+
+
+if (!WinUsb_Initialize(DeviceHandle, &WinusbHandle))
+ {
+     n = GetLastError();
+     CloseHandle(DeviceHandle); DeviceHandle_Open = false;
+     return false;
+ }
+
+
+
+WinusbHandle_Open = true;
+return true;
+}
+
+void  disconnectusb()
+{
+    if (WinusbHandle_Open) { WinUsb_Free(WinusbHandle); WinusbHandle_Open = false; }
+    if (DeviceHandle_Open) { CloseHandle(DeviceHandle); DeviceHandle_Open = false; }
+}

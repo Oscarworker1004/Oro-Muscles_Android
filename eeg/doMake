@@ -1,0 +1,32 @@
+export JAVA_INC=/usr/lib/jvm/java-14-openjdk-amd64/include/
+
+g++ -std=c++11 -fPIC -shared -O3 -lstdc++ -I$JAVA_INC -I$JAVA_INC/linux -I. -I../  \
+    -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/ \
+    ./eeg/JNItop.cc \
+    ./eeg/EHMM.cc \
+    ./eeg/Analyze.cc \
+    ./eeg/Annotator.cc \
+    ./eeg/BTLData.cc \
+    ./eeg/Freq.cc \
+    ./eeg/Hints.cc \
+    ./eeg/IMUTrans.cc \
+    ./eeg/TimeRefine.cc \
+    ./eeg/SuperCycle.cc \
+    ./base/FileParser.cc \
+    ./base/StringUtil.cc \
+    ./base/ErrorHandling.cc \
+    ./base/Config.cc \
+    ./util/mutil.cc \
+    ./signal/CrossCorr.cc \
+    ./signal/Smooth.cc \
+    ./visual/Bitmap.cc \
+    ./visual/Color.cc \
+    ./visual/GraphPlotter.cc \
+    ./signal/Bin2CSV.cc \
+    ./signal/Filters.cc \
+    ./src/UnivData.cc \
+    ./extern/filter-c/filter.cc \
+    ./extern/attitude_estimator/attitude_estimator.cc \
+    -o libbtanalyze.so
+
+cp libbtanalyze.so Java/BTBrowser2/.

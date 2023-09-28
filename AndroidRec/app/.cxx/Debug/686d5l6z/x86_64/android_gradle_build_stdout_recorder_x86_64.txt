@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\musta\OneDrive\Documents\github_oromuscles\Oro-Muscles_Android_Dev\AndroidRec\app\.cxx\Debug\686d5l6z\x86_64'
+ninja: no work to do.

@@ -1,0 +1,7 @@
+Executable : C:\Users\musta\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\musta\Win10Backup\User Folder\backup\UserSlashDocuments\FFoxes\Barry\oromusclesmaindev-oromuscles-96a5024edea8\AndroidRec\app\.cxx\Debug\596l5m1b\arm64-v8a
+recorder
+jvmArgs : 
+

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".Fragments.ZonesFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/graphsArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonControls"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/IntensityZone"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/grey"
+                app:cardCornerRadius="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="3dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="@color/black">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <TextView
+                            android:id="@+id/intensityTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/opensansmedium"
+                            android:text="Intensity"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                        <RelativeLayout
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/intensityTitle"
+                            android:layout_centerHorizontal="true">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cluster"/>
+                                <ImageView
+                                    android:id="@+id/intensityNeedle"
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:rotation="-220"
+                                    android:src="@drawable/needlenew"/>
+                            </FrameLayout>
+
+
+                        </RelativeLayout>
+
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/WorkCapacityZone"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_below="@id/IntensityZone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/grey"
+                app:cardCornerRadius="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="3dp"
+                    app:cardUseCompatPadding="true"
+                    android:backgroundTint="@color/black">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <TextView
+                            android:id="@+id/workCapacityTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/opensansmedium"
+                            android:text="Work Capacity"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                        <RelativeLayout
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/workCapacityTitle"
+                            android:layout_centerHorizontal="true">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cluster"/>
+                                <ImageView
+                                    android:id="@+id/workCapacityNeedle"
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:rotation="-220"
+                                    android:src="@drawable/needlenew"/>
+                            </FrameLayout>
+
+
+                        </RelativeLayout>
+
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "UPPER_LEG": [
+    {"muscle": "Adductors", "image": "adductors"},
+    {"muscle": "Vastus Lateralis", "image": "vastus_lateralis"},
+    {"muscle": "Vastus Medialis", "image": "vastus_medialis"},
+    {"muscle": "Rectus Femoris", "image": "rectus_femoris"},
+    {"muscle": "Tensor Fasciae Latae", "image": "tensor_fasciae_latae"},
+    {"muscle": "Biceps Femoris", "image": "biceps_femoris"},
+    {"muscle": "Gluteus Maximus", "image": "gluteus_maximus"},
+    {"muscle": "Gluteus Medius", "image": "gluteus_medius"},
+    {"muscle": "Semitendinosus", "image": "semitendinosus"}
+  ],
+  "LOWER_LEG": [
+    {"muscle": "Lateral Gastrocnemius", "image": "gastrocnemius"},
+    {"muscle": "Medial Gastrocnemius", "image": "gastrocnemius"},
+    {"muscle": "Soleus", "image": "soleus"},
+    {"muscle": "Tibialis Anterior", "image": "tibialis_anterior"},
+    {"muscle": "Peroneus Longus", "image": "peroneus_longus"}
+  ],
+  "UPPER_BODY": [
+    {"muscle": "Pectoralis Major", "image": "pectoralis_major"},
+    {"muscle": "Front Deltoid", "image": "deltoid"},
+    {"muscle": "Deltoid Medial", "image": "deltoid"},
+    {"muscle": "Rear Deltoid", "image": "rear_deltoid"},
+    {"muscle": "Abs", "image": "abs"},
+    {"muscle": "Obliques", "image": "obliques"},
+    {"muscle": "Serratus Anterior", "image": "serratus_anterior"}
+  ],
+  "ARMS": [
+    {"muscle": "Long Head Bicep", "image": "biceps_brachii"},
+    {"muscle": "Short Head Bicep", "image": "biceps_brachii"},
+    {"muscle": "Brachialis", "image": "biceps_brachii"},
+    {"muscle": "Lateral Head Tricep", "image": "triceps_brachii"},
+    {"muscle": "Long Head Tricep", "image": "triceps_brachii"},
+    {"muscle": "Brachioradialis", "image": "forearm"},
+    {"muscle": "Flexor carpi Radialis", "image": "forearm"},
+    {"muscle": "Flexor carpi Ulnaris", "image": "forearm"}
+  ],
+  "BACK": [
+    {"muscle": "Erector Spinae - Thoracic", "image": ""},
+    {"muscle": "Erector Spinae - Lumbar", "image": ""},
+    {"muscle": "Multifidus Lumbar Region", "image": ""},
+    {"muscle": "Infraspinatus", "image": "infraspinatus"},
+    {"muscle": "Latissimus Dorsi", "image": "latissimus_dorsi"},
+    {"muscle": "Trapezius p Descendenz", "image": "trapezius"},
+    {"muscle": "Trapezius p. Ascendenz", "image": "trapezius"},
+    {"muscle": "Trapezius p. Transversus", "image": "trapezius"}
+  ],
+  "HEAD": [
+    {"muscle": "Sternocleidomastoid", "image": "sternocleidomastoid"},
+    {"muscle": "Neck Extensors", "image": "trapezius"},
+    {"muscle": "Frontalis", "image": ""},
+    {"muscle": "Masseter", "image": ""}
+  ]
+}

@@ -1,0 +1,26 @@
+ninja: Entering directory `C:\Users\musta\Videos\Captures\oromusclesmaindev-oromuscles-df861b04178a\oromusclesmaindev-oromuscles-df861b04178a\AndroidRec\app\.cxx\Debug\4i6w6a66\x86'
+[1/2] Building CXX object CMakeFiles/recorder.dir/recorder.cpp.o
+In file included from C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/recorder.cpp:27:
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/../../../../..\util/mutil.cc:16:9: warning: 'PAGE_SIZE' macro redefined [-Wmacro-redefined]
+#define PAGE_SIZE 131072
+        ^
+C:/Users/musta/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\sys/user.h:38:9: note: previous definition is here
+#define PAGE_SIZE 4096
+        ^
+In file included from C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/recorder.cpp:27:
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/../../../../..\util/mutil.cc:384:18: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (n >= 2 && text[n-2] == 10 || text[n-2] == 13) {
+          ~~~~~~~^~~~~~~~~~~~~~~~~~ ~~
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/../../../../..\util/mutil.cc:384:18: note: place parentheses around the '&&' expression to silence this warning
+      if (n >= 2 && text[n-2] == 10 || text[n-2] == 13) {
+                 ^
+          (                        )
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/../../../../..\util/mutil.cc:1657:3: warning: 'delete' applied to a pointer that was allocated with 'new[]'; did you mean 'delete[]'? [-Wmismatched-new-delete]
+  delete szTemp;
+  ^
+        []
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/src/main/cpp/../../../../..\util/mutil.cc:1618:24: note: allocated with 'new[]' here
+  MCL_TCHAR * szTemp = new MCL_TCHAR[4096 * 512];
+                       ^
+3 warnings generated.
+[2/2] Linking CXX shared library C:\Users\musta\Videos\Captures\oromusclesmaindev-oromuscles-df861b04178a\oromusclesmaindev-oromuscles-df861b04178a\AndroidRec\app\build\intermediates\cxx\Debug\4i6w6a66\obj\x86\librecorder.so

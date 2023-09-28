@@ -1,0 +1,2 @@
+ninja: Entering directory `N:\Development\Mobile\Android\Freelance\Upwork\Oro-Muscles_Android_Dev\AndroidRec\app\.cxx\Debug\2g3u6a1u\x86_64'
+ninja: no work to do.

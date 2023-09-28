@@ -1,0 +1,129 @@
+/*
+ * libusb example program to list devices on the bus
+ * Copyright © 2007 Daniel Drake <dsd@gentoo.org>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+
+#include <stdio.h>
+#include "base/SVector.h"
+
+//#include <usb.h>
+
+#include <libusb-1.0/libusb.h>
+
+
+
+void print_devs_int(libusb_device **devs, libusb_context * ctx)
+{
+	libusb_device *dev;
+	int i = 0, j = 0;
+	uint8_t path[8]; 
+
+	while ((dev = devs[i++]) != NULL) {
+		struct libusb_device_descriptor desc;
+		int r = libusb_get_device_descriptor(dev, &desc);
+		if (r < 0) {
+			fprintf(stderr, "failed to get device descriptor");
+			return;
+		}
+
+		printf("%04x:%04x (bus %d, device %d)",
+			desc.idVendor, desc.idProduct,
+			libusb_get_bus_number(dev), libusb_get_device_address(dev));
+
+		r = libusb_get_port_numbers(dev, path, sizeof(path));
+		if (r > 0) {
+			printf(" path: %d", path[0]);
+			for (j = 1; j < r; j++)
+				printf(".%d", path[j]);
+		}
+		printf("\n");
+
+		if (desc.idVendor == 0x0403 && desc.idProduct == 0x6001) {
+		  cout << "Open device" << endl;
+		  libusb_device_handle *handle = libusb_open_device_with_vid_pid(ctx, desc.idVendor, desc.idProduct);
+		  cout << "handle: " << handle << endl;
+		  //handle = libusb_open_device_with_vid_pid(ctx, 0x0403, 21);
+		  //cout << "handle: " << handle << endl;
+		}
+		
+	}
+}
+
+void trans_cb(struct libusb_transfer *transfer){
+    fprintf(stderr, "callback!\n");
+}
+
+void try_it() {
+  libusb_context *ctx = NULL;
+  libusb_init(&ctx);
+
+  libusb_device_handle *handle = libusb_open_device_with_vid_pid(ctx, 0x0403, 0x6001);
+
+  cout << handle << endl;
+  
+  libusb_detach_kernel_driver(handle, 0);
+  libusb_claim_interface(handle, 0);
+  struct libusb_transfer *transfer = libusb_alloc_transfer(0);
+  unsigned char buf[512];
+  libusb_fill_bulk_transfer(transfer, handle, 0x81, buf, sizeof(buf), trans_cb, NULL, 0);
+  libusb_submit_transfer(transfer);
+  
+  while(1)
+    {
+      libusb_handle_events(ctx);
+    }
+  
+  libusb_exit(ctx);
+}
+
+
+int main( int argc, char** argv )
+{
+
+  
+  
+  libusb_device **devs;
+  int r;
+  ssize_t cnt;
+
+  libusb_context *ctx = NULL;
+
+  r = libusb_init(&ctx);
+  cout << "Context: " << ctx << endl;
+  if (r < 0)
+    return r;
+  
+  cnt = libusb_get_device_list(ctx, &devs);
+  if (cnt < 0){
+    libusb_exit(ctx);
+    return (int) cnt;
+  }
+  
+  print_devs_int(devs, ctx);
+  
+  // 0403:6001 is the one!
+  
+  libusb_free_device_list(devs, 1);
+
+
+  //  try_it();
+
+  
+  libusb_exit(ctx);
+  return 0;
+
+}

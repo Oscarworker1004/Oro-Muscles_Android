@@ -1,0 +1,19 @@
+<!-- item_bar.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingEnd="3dp"
+    android:paddingStart="3dp"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/barView"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/orig_teal_700"/>
+
+</LinearLayout>

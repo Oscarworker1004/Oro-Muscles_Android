@@ -1,0 +1,2 @@
+javac -h . ../Java/OroServer/src/main/java/com/digidactylus/oroserver/JNIWrap.java
+

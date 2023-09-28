@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "recorder",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "recorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recorder-Debug-e608201bf8abc43f52e5.json",
+					"name" : "recorder",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/musta/Win10Backup/User Folder/backup/UserSlashDocuments/FFoxes/Barry/oromusclesmaindev-oromuscles-96a5024edea8/AndroidRec/app/.cxx/Debug/5m713py2/x86",
+		"source" : "C:/Users/musta/Win10Backup/User Folder/backup/UserSlashDocuments/FFoxes/Barry/oromusclesmaindev-oromuscles-96a5024edea8/AndroidRec/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

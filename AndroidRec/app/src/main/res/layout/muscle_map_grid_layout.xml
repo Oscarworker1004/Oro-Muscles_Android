@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mapCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/muscleCardStrokeColor"
+        android:backgroundTint="@color/black"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/muscleImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/musclescreenshot"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/linear_bg"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_below="@id/muscleImage">
+
+                <TextView
+                    android:id="@+id/muscleTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Vastus Medialis"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/opensansmedium"
+                    android:textSize="12sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

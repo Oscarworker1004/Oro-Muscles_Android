@@ -1,0 +1,19 @@
+# ninja log v5
+0	2656	715740188	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+2658	2908	715740188	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+1	11	0	clean	3658572b97951cd
+5	2333	715823486	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+2333	2559	715823486	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+0	9	0	clean	3658572b97951cd
+23	3237	715823567	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+3238	3451	715823568	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+0	8	0	clean	3658572b97951cd
+4	2016	715823708	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+2017	2228	715823708	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+0	7	0	clean	3658572b97951cd
+4	2003	715823795	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+2003	2218	715823796	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+0	8	0	clean	3658572b97951cd
+3	1968	715823884	CMakeFiles/recorder.dir/recorder.cpp.o	4f83330744719713
+1968	2182	715823885	C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/build/intermediates/cxx/Debug/4i6w6a66/obj/arm64-v8a/librecorder.so	8096bb1acbf729f8
+0	7	0	clean	3658572b97951cd

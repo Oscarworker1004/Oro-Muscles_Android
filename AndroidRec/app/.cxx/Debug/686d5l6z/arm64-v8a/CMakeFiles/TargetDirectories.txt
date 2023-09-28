@@ -1,0 +1,3 @@
+C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/Debug/686d5l6z/arm64-v8a/CMakeFiles/recorder.dir
+C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/Debug/686d5l6z/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/musta/OneDrive/Documents/github_oromuscles/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/Debug/686d5l6z/arm64-v8a/CMakeFiles/rebuild_cache.dir

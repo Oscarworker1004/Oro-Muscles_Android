@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/administrator/Workspace/Android/Oro Muscles/AndroidRec/app/.cxx/Debug/1b5r405b/x86",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android21 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drecorder_EXPORTS -I\"/Users/administrator/Workspace/Android/Oro Muscles/AndroidRec/app/src/main/cpp/../../../../..\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/recorder.dir/recorder.cpp.o -c \"/Users/administrator/Workspace/Android/Oro Muscles/AndroidRec/app/src/main/cpp/recorder.cpp\"",
+  "file": "/Users/administrator/Workspace/Android/Oro Muscles/AndroidRec/app/src/main/cpp/recorder.cpp"
+}
+]

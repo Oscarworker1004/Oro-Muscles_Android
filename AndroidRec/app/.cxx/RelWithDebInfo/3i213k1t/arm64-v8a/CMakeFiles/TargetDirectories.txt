@@ -1,0 +1,3 @@
+N:/Development/Mobile/Android/Freelance/Upwork/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/RelWithDebInfo/3i213k1t/arm64-v8a/CMakeFiles/recorder.dir
+N:/Development/Mobile/Android/Freelance/Upwork/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/RelWithDebInfo/3i213k1t/arm64-v8a/CMakeFiles/edit_cache.dir
+N:/Development/Mobile/Android/Freelance/Upwork/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/RelWithDebInfo/3i213k1t/arm64-v8a/CMakeFiles/rebuild_cache.dir

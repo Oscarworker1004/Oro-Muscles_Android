@@ -1,0 +1,7 @@
+[
+{
+  "directory": "N:/Development/Mobile/Android/Freelance/Upwork/Oro-Muscles_Android_Dev/AndroidRec/app/.cxx/Debug/2g3u6a1u/x86",
+  "command": "N:\\SDKs\\Android\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=N:/SDKs/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=N:/SDKs/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Drecorder_EXPORTS -IN:/Development/Mobile/Android/Freelance/Upwork/Oro-Muscles_Android_Dev/AndroidRec/app/src/main/cpp/../../../../.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\recorder.dir\\recorder.cpp.o -c N:\\Development\\Mobile\\Android\\Freelance\\Upwork\\Oro-Muscles_Android_Dev\\AndroidRec\\app\\src\\main\\cpp\\recorder.cpp",
+  "file": "N:\\Development\\Mobile\\Android\\Freelance\\Upwork\\Oro-Muscles_Android_Dev\\AndroidRec\\app\\src\\main\\cpp\\recorder.cpp"
+}
+]

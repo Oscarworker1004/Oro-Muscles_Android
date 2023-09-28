@@ -1,0 +1,7 @@
+Executable : N:\SDKs\Android\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+N:\Development\Mobile\Android\Freelance\Upwork\Oro-Muscles_Android_Dev\AndroidRec\app\.cxx\Debug\2g3u6a1u\x86
+recorder
+jvmArgs : 
+

@@ -1,0 +1,3 @@
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/.cxx/Debug/4i6w6a66/armeabi-v7a/CMakeFiles/recorder.dir
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/.cxx/Debug/4i6w6a66/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/musta/Videos/Captures/oromusclesmaindev-oromuscles-df861b04178a/oromusclesmaindev-oromuscles-df861b04178a/AndroidRec/app/.cxx/Debug/4i6w6a66/armeabi-v7a/CMakeFiles/rebuild_cache.dir

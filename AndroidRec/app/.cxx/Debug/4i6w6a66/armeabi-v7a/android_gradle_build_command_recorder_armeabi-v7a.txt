@@ -1,0 +1,7 @@
+Executable : C:\Users\musta\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\musta\Videos\Captures\oromusclesmaindev-oromuscles-df861b04178a\oromusclesmaindev-oromuscles-df861b04178a\AndroidRec\app\.cxx\Debug\4i6w6a66\armeabi-v7a
+recorder
+jvmArgs : 
+

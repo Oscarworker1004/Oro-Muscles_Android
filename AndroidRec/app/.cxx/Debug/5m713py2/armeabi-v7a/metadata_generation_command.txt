@@ -1,0 +1,18 @@
+                    -HC:\Users\musta\Win10Backup\User Folder\backup\UserSlashDocuments\FFoxes\Barry\oromusclesmaindev-oromuscles-96a5024edea8\AndroidRec\app\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=C:\Users\musta\AppData\Local\Android\Sdk\ndk\23.1.7779620
+-DCMAKE_ANDROID_NDK=C:\Users\musta\AppData\Local\Android\Sdk\ndk\23.1.7779620
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\musta\AppData\Local\Android\Sdk\ndk\23.1.7779620\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\musta\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\musta\Win10Backup\User Folder\backup\UserSlashDocuments\FFoxes\Barry\oromusclesmaindev-oromuscles-96a5024edea8\AndroidRec\app\build\intermediates\cxx\Debug\5m713py2\obj\armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\musta\Win10Backup\User Folder\backup\UserSlashDocuments\FFoxes\Barry\oromusclesmaindev-oromuscles-96a5024edea8\AndroidRec\app\build\intermediates\cxx\Debug\5m713py2\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-BC:\Users\musta\Win10Backup\User Folder\backup\UserSlashDocuments\FFoxes\Barry\oromusclesmaindev-oromuscles-96a5024edea8\AndroidRec\app\.cxx\Debug\5m713py2\armeabi-v7a
+-GNinja
+                    Build command args: []
+                    Version: 2
